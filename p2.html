@@ -1,0 +1,78 @@
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .card {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .card-image {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      background-color: white;
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .card-button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: #0078d4;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card-button:hover {
+      background-color: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="p2.jpeg" alt="A cute dog" class="card-image">
+      <div class="card-content">
+        <h1 class="card-title">Meet my dog</h1>
+        <p class="card-text">This is my dog, Sparky. He is a golden retriever and he is very friendly. He loves to play fetch and cuddle. He is the best dog ever!</p>
+        <button class="card-button" onclick="alert('Sparky says woof!')">Pet him</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
